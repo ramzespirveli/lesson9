@@ -38,6 +38,14 @@ h1 {
 li,.wit {
     color: white;
 }
+.menu-size {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+.bur-bar {
+    display: none;
+}
 .maps1 {
     max-width: 1090px;
     width: 100%;
