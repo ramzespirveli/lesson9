@@ -26,9 +26,6 @@
         width: 200px;
         height: 60px;
     }
-    .form {
-        width: 710px;
-    }
     .last-img {
         display: none;
     }
@@ -48,8 +45,14 @@
     .futer-size {
         display: none;
     }
+    .line {
+        display: none;
+    }
+    h1 {
+        margin-top: 60px;
+    }
 }
-@media (max-width:700px){
+@media (max-width:730px){
     .line {
         display: none;
     }
@@ -57,12 +60,112 @@
         font-size: 30px;
     }
     .form {
-        margin-left: 20px;
-    }
-    .form1 {
-        flex-direction: column;
+       margin: 10px auto;
+       display: flex;
+        justify-content: center;
     }
      .first-foto {
          display: none;
      }
+     .area {
+        width: 280px;
+        height: 289px;
+        padding: 20px;
+        margin-right: 10px;
+    }
+
+    header {
+        margin-bottom: 1px;
+    }
+    h1 {
+        margin-top: 1px;
+        margin-left: 1px;
+    }
+    .midl-foto {
+        margin: 0 auto;
+     }
+     .maps{
+        width: 400px;
+     }
+     .top-mar {
+         display: none;
+     }
+      .conta {
+          flex-direction: column;
+      }
+      footer {
+          height: 700px;
+      }
+      .div-futer {
+          padding: 10px
+      }
+}
+@media (max-width: 560px)
+{
+    .form {
+        flex-direction: column;
+        align-items: center;
+    }
+    .s1-second-blok {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .maps {
+        width: 320px;
+    }
+    .bgr {
+        width: 45%;
+    }
+}
+@media (max-width:480px){
+    h1 {
+        display: none;
+    }
+    header {
+        height: 120px;
+    }
+    .div-heder {
+        margin-left: 20px;
+    }
+    .s1-second-blok {
+flex-direction: column;
+align-items: center;
+    }
+    .bgr {
+        width: 80%;
+    }
+    .area {
+        width: 240px;
+        height: 150px;
+        padding: 20px;
+        margin-right: 10px;
+    }
+    .paragraf2 {
+        width: 300px;
+        margin-left: 30px;
+    }
+    .paragraf {
+        width: 250px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .maps1 {
+        width: 250px;
+        margin: 0 auto;
+    }
+    .maps {
+        width: 250px;
+        margin: 0 auto;
+    }
+    .foto {
+        width:200px;
+        margin: 0;
+        display: none;
+    }
+    .midl-foto {
+        width: 300px;
+    }
+    h3-color {
+        margin-left: 20px;
+    }
 }

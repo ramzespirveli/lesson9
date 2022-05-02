@@ -1,6 +1,8 @@
 header {
     background-image: url("../image/foto.jpeg");
-    max-width: 1367px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
     width: 100%;
     height: 325px;
     display: flex;
@@ -20,6 +22,9 @@ header {
     margin-right: 140px;
     display: flex;
     justify-content: space-between;
+}
+.li-a {
+    color: white;
 }
 .lin {
     width: 2px;
@@ -59,8 +64,8 @@ li,.wit {
     height: 290px;
     margin: 0 auto;
 }
-.form {
-    max-width: 1090px;
+.s1-first-blok {
+    max-width: 1100px;
     width: 100%;
     margin: 0 auto;
     margin-top: 59px;
@@ -83,7 +88,7 @@ li,.wit {
     width: 360px;
     height: 60px;
 }
-.form1 {
+.form {
     display: flex;
     justify-content: space-between;
 }
@@ -100,14 +105,14 @@ li,.wit {
     margin-left: 10px;
 }
 /* sami bloki */
-.blok3 {
+.s1-second-blok {
     max-width: 1090px;
     width: 100%;   
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
-.mtk {
+.iconi {
     width: 60px;
     height: 60px;
     border-radius: 50px;
@@ -117,7 +122,7 @@ li,.wit {
     padding: 22px;
     margin-bottom: 20px;
 }
-.mtk1 {
+.child-iconi {
     position: absolute;
 }
 .bgr {
@@ -151,14 +156,11 @@ li,.wit {
 .foto {
     max-width: 1367px;
     width: 100%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 .div-futer {
-    max-width: 1367px;
-    width: 100%;
-    height: 289px;
-    background-color: black;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -174,7 +176,7 @@ li,.wit {
     font-size: 42px;
     color: white;
 }
-.cre {
+.circle {
     width: 36px;
     height: 36px;
     border-radius: 50px;
@@ -195,10 +197,10 @@ li,.wit {
     position: absolute;
     color: white;
 }
-.cre:first-child{
+.circle:first-child{
     background-color: rgb(29, 96, 134);
 }
-.cre:last-child {
+.circle:last-child {
     background-color: brown;
 }
 .skay {
@@ -243,12 +245,6 @@ margin-left: 140px;
 color: white;
 src: url('/fonts/Roboto-Bold.eot');
 }
-.futer-size {
-    max-width: 1367px;
-    width: 100%;
-    height: 100px;
-    background-color: black;
-}
 /* fontebi */
 h4 {
     font-family: 'Lato';
@@ -256,4 +252,7 @@ h4 {
 /* hover */
 .nait:hover {
     color: darkcyan;
+}
+.futer-color {
+    background-color: black;
 }
